@@ -5,9 +5,9 @@ programa
 	{
 		real a,b 
 		real soma
-		real subtracao
-		real multiplicacao
-		real divisao
+		real subt
+		real mult
+		real div
 		
 		escreva("Digite o primeiro número ")
 			leia(a)
@@ -17,14 +17,14 @@ programa
 		soma = a+b
 		escreva("O resultado da soma de ",a," + ",b," = ", soma)
 
-		subtracao = a-b
-		escreva("\nO resultado da subtracao de ",a," - ",b," = ", subtracao)
+		subt = a-b
+		escreva("\nO resultado da subtracao de ",a," - ",b," = ", subt)
 
-		multiplicacao = a*b
-		escreva("\nO resultado da multiplicacao ",a," * ",b," = ", multiplicacao)
+		mult = a*b
+		escreva("\nO resultado da multiplicacao ",a," * ",b," = ", mult)
 
-		divisao = a/b
-		escreva("\nO resultado da divisao ",a," / ",b," = ", divisao)
+		div = a/b
+		escreva("\nO resultado da divisao ",a," / ",b," = ", div)
 
 		
 	}
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 563; 
+ * @POSICAO-CURSOR = 345; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
