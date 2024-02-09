@@ -29,11 +29,11 @@ programa
 
 		bici_preco_final = (((bici_preco/2)*bici_vendida) + bici_preco*bici_vendida) 
 
-		comissao = bici_preco_final*0.15 
+		comissao = (bici_preco*0.15)*bici_vendida 
 		
 		salario_final = (((salario*2)*quant_funciona) + (comissao))/(quant_funciona)
 
-		lucro_liquido = bici_preco_final - comissao - salario_final
+		lucro_liquido = bici_preco_final - (salario_final*quant_funciona)
 
 		escreva("O salário de cada funcionário e de: R$",salario_final)
 		escreva("\nO lucro líquido da loja foi de: R$",lucro_liquido)
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1192; 
+ * @POSICAO-CURSOR = 1139; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
