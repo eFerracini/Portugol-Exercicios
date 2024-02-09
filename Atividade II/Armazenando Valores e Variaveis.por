@@ -20,7 +20,7 @@ programa
 			valor_a = valor_b
 			valor_b = valor_c
 
-		escreva("O valor foi invertido, primeiro valor = ",valor_a," e segundo valor =  ",valor_b)
+		escreva("Os valores foram invertido, primeiro valor = ",valor_a," e segundo valor =  ",valor_b)
 			
 			
 
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 634; 
+ * @POSICAO-CURSOR = 574; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
