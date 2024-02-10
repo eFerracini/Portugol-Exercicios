@@ -1,18 +1,22 @@
+//Crie um algoritmo que leia um determinado número e apresente na tela a tabuada da divisão deste número. Por exemplo, digamos que o número informado foi 5, o programa deverá apresentar na tela:
+//5 : 5 = 1
+//10 : 5 = 2
+//15 : 5 = 3
+//?
+//50 : 5 = 10
+
 programa
 {
-	
 	funcao inicio()
 	{
-
-		inteiro cont, numero, resultado
-		
-		escreva("escreva o número que deseja ver a divisão: ")
-			leia(numero)
-
-		para(cont = numero;cont <=10*numero;cont +=numero){
-			resultado = cont/numero
-			escreva("\n",cont," / ",numero," = ",resultado)
-			}
+		inteiro cont, x, res
+		escreva("Informe o número que deseja obter a tabuada da divisão: \n")
+		leia(x)
+		escreva("TABUADA DO ",x, "\n")
+		para(cont = x; cont <= 10*x; cont+=x){
+			res = cont / x
+			escreva(cont," / ",x," = ",res,"\n") 
+			}		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,9 +24,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 294; 
+ * @POSICAO-CURSOR = 532; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {cont, 7, 10, 4}-{numero, 7, 16, 6}-{resultado, 7, 24, 9};
+ * @SIMBOLOS-INSPECIONADOS = {cont, 12, 10, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
